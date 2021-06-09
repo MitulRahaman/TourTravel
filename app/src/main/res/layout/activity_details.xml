@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DetailsActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@drawable/back4">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/imageViewId1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <TextView
+            android:id="@+id/textViewId1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#88F4F5EB"/>
+        <Button
+            android:id="@+id/bookButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:text="BOOK NOW"
+            android:backgroundTint="#A96AAF2F"
+            android:background="#FBFCFA"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

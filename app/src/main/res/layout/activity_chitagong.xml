@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ChitagongActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back4"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="CHITTAGONG"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:textColor="#E3000000"
+        android:background="#7ED42000"
+        />
+
+    <ImageView
+        android:id="@+id/sajekId"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sv"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sajek Valley"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:id="@+id/coxsbazarId"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/coxsbazar"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cox's Bazar"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:id="@+id/saintId"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/saint_martin"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saint Martin"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:id="@+id/patengaId"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/patenga"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patenga Beach"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:id="@+id/thanchiId"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/thanchi"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanchi"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

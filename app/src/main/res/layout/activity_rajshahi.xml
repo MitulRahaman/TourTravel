@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RajshahiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/back4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="RAJSHAHI"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textColor="#E3000000"
+            android:background="#7ED42000"
+            />
+        <ImageView
+            android:id="@+id/mahasId"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mahasthangarh"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mahasthangarh,\n         Bogra"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
